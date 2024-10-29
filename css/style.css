@@ -30,6 +30,10 @@ ul {
     align-items: center;
 
 }
+li {
+    color: white;
+    font-family: 'Inter 28pt';
+}
 .nav-div {
     display: flex;
     align-items:center;
@@ -43,6 +47,10 @@ ul {
     height: 25px;
     margin-left: 35px;
     margin-right: 25px;
+}
+.nav-div > p {
+    color: white;
+    font-family: 'Inter 28pt';
 }
 .sec1 {
     position: relative;
@@ -60,6 +68,55 @@ ul {
 h1 {
     font-size: 59px;
     color: white;
+    font-family: 'Train One';
+}
+.sec1-div1 > h2 {
+    color: white;
+    font-size: 66px;
+    font-family: 'Inter 18pt';
+    
+}
+.sec1-div1 > p {
+    color: white;
+    font-family: 'Inter 24pt';
+    width: 517px;
+    font-size: 31px;
+    margin-top: 1px;
+}
+.box {
+    display: flex;
+    margin-top: 48px;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+.black-box {
+    width: 225px;
+    height: 60px;
+    background-color: #101C1B;
+    border-radius:27px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.black-box > p {
+    color: white;
+    font-size: 16px;
+    
+    
+}
+.box > p {
+    font-family: 'Inter 18pt';
+    color: white;
+    font-size: 22px;
+}
+.green-box {
+    width: 15px;
+    height: 15px;
+    border-radius: 100px;
+    background-color: #00CF75;
+    color: white;
+    font-family: ;
 }
 .sec1-div2{
     position: absolute;
@@ -72,4 +129,19 @@ h1 {
     background-color: white;
     border: 2px solid black;
     border-radius: 50px;
+    position: absolute;
+    top: 320px;
+    right: 233px;
+}
+.div2-child > h2 {
+    font-size: 77px;
+    text-align: center;
+    font-family: 'Inter 18pt';
+
+}
+.div2-child > p {
+    width: 145px;
+    font-size: 26px;
+    margin-left: 53px;
+    margin-top: 8px;
 }
